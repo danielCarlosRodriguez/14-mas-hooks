@@ -69,7 +69,7 @@ max-width: 300px;
 background-color: blueviolet;
 }
 
-/* .imagen{
+.imagen{
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -77,4 +77,4 @@ background-color: blueviolet;
 td{
   padding: 7px;
   border: 1px solid white;
-} */
+}

@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const useAxios = (url) => {
   const [estado, setEstado] = useState({
-    datos: null,
+    datos: [],
     cargando: true,
   });
 
