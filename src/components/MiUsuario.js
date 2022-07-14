@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useAjax } from "../hooks/useAjax";
 
 export const MiUsuario = () => {
+  
   const [url, setUrl] = useState("https://reqres.in/api/users/1");
 
   const { datos, cargando } = useAjax(url);
