@@ -15,7 +15,9 @@ export const Personajes = () => {
     <div className="datos">
       <h1>Datos conseguidos</h1>
 
+      <p>{cargando ? "Cargando..." : ""}</p>
 
+   
       {datos.map((item, i) => {
         return (
           <table className="default" key={i}>

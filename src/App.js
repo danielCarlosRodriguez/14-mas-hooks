@@ -1,5 +1,7 @@
 import './App.css';
-import { Personajes } from './components/Personajes';
+import { Rse } from './components/Rse';
+//import { Personajes } from './components/Personajes';
+import { Usuarios } from './components/Usuarios';
 
 
 
@@ -11,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       
-       <Personajes />
+       <Rse />
       
       </header>
     </div>
